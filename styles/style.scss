@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #9789f9;
+    overflow-y: hidden;
     padding: 5%;
     .ul {
         @include ulAndDevelopmentBlock;
@@ -53,7 +54,7 @@
     }
 }
 
-@media (min-width: 407px) and (max-width: 575.98px) {
+@media (min-width: 340px) and (max-width: 767.98px) {
     .main {
         display: block;
         padding-left: 15%;
@@ -71,8 +72,16 @@
             width: 90%;
             padding: 5% 8% 25% 8%;
             &__bubble {
-                top: 40px;
-                left: 70%;
+                flex-wrap: wrap;
+                top: 52px;
+                left: 45%;
+                & .popular {
+                    width: 89%;
+                    bottom: 2rem;
+                    position: absolute;
+                    left: 100px;
+                    top: 66px;
+                }
             }
         }
         .development {

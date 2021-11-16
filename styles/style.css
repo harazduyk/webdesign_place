@@ -7,6 +7,7 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   background-color: #9789f9;
+  overflow-y: hidden;
   padding: 5%;
 }
 
@@ -260,7 +261,7 @@
   top: 18%;
 }
 
-@media (min-width: 407px) and (max-width: 575.98px) {
+@media (min-width: 340px) and (max-width: 767.98px) {
   .main {
     display: block;
     padding-left: 15%;
@@ -280,8 +281,17 @@
     padding: 5% 8% 25% 8%;
   }
   .main .webdesign__bubble {
-    top: 40px;
-    left: 70%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    top: 52px;
+    left: 45%;
+  }
+  .main .webdesign__bubble .popular {
+    width: 89%;
+    bottom: 2rem;
+    position: absolute;
+    left: 100px;
+    top: 66px;
   }
   .main .development {
     width: 90%;
