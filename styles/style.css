@@ -1,1 +1,363 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #9789f9;
+  padding: 5%;
+}
+
+.main .ul {
+  width: 30%;
+  background-image: url(../images/bg_ul_web.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 8% 8% 10% 8%;
+  margin: 2% 0;
+}
+
+.main .ul__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .ul__price h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.main .ul__price h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.main .ul__price h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.main .ul h1 {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 25%;
+}
+
+.main .ul p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 20%;
+}
+
+.main .ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Bebas Neue';
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8%;
+  background-color: #6fcffb;
+  top: 18%;
+}
+
+.main .webdesign {
+  width: 35%;
+  background-image: url("../images/bg-webdesign.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 3% 8% 0% 10%;
+}
+
+.main .webdesign__bubble {
+  opacity: 1;
+  position: relative;
+  left: 80%;
+  top: 3%;
+}
+
+.main .webdesign__bubble:hover .popular {
+  opacity: 1;
+}
+
+.main .webdesign__bubble .popular {
+  opacity: 0;
+}
+
+.main .webdesign__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .webdesign__price h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.main .webdesign__price h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.main .webdesign__price h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.main .webdesign h1 {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 25%;
+}
+
+.main .webdesign p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 20%;
+}
+
+.main .webdesign a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Bebas Neue';
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8%;
+  background-color: #fd8d7b;
+  top: 1%;
+}
+
+.main .webdesign h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: #a9a9a9;
+  margin-top: 10%;
+}
+
+.main .development {
+  width: 30%;
+  background-image: url(../images/bg_ul_web.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 8% 8% 10% 8%;
+  margin: 2% 0;
+}
+
+.main .development__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .development__price h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.main .development__price h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.main .development__price h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.main .development h1 {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 25%;
+}
+
+.main .development p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 20%;
+}
+
+.main .development a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Bebas Neue';
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8%;
+  background-color: #6fcffb;
+  top: 18%;
+}
+
+@media (min-width: 407px) and (max-width: 575.98px) {
+  .main {
+    display: block;
+    padding-left: 15%;
+  }
+  .main .ul {
+    width: 90%;
+    padding: 25% 8% 25% 8%;
+  }
+  .main .ul p {
+    text-align: center;
+  }
+  .main .ul a {
+    top: 45px;
+  }
+  .main .webdesign {
+    width: 90%;
+    padding: 5% 8% 25% 8%;
+  }
+  .main .webdesign__bubble {
+    top: 40px;
+    left: 70%;
+  }
+  .main .development {
+    width: 90%;
+    padding: 25% 8% 25% 8%;
+  }
+  .main .development p {
+    text-align: center;
+  }
+  .main .development a {
+    top: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    display: block;
+    padding-left: 15%;
+  }
+  .main .ul {
+    width: 90%;
+    padding: 25% 5% 25% 5%;
+  }
+  .main .ul p {
+    text-align: center;
+  }
+  .main .ul a {
+    top: 90px;
+  }
+  .main .webdesign {
+    width: 90%;
+    padding: 15% 8% 25% 8%;
+  }
+  .main .webdesign__bubble {
+    top: 10px;
+    left: 60%;
+  }
+  .main .webdesign a {
+    top: 10px;
+  }
+  .main .development {
+    width: 90%;
+    padding: 25% 5% 25% 5%;
+  }
+  .main .development p {
+    text-align: center;
+  }
+  .main .development a {
+    top: 90px;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2560px) {
+  .main .ul p {
+    font-size: 25px;
+  }
+  .main .ul a {
+    top: 22%;
+  }
+  .main .webdesign__bubble {
+    top: 1%;
+    left: 75%;
+  }
+  .main .webdesign p {
+    font-size: 25px;
+  }
+  .main .webdesign h5 {
+    margin-top: 25%;
+  }
+  .main .webdesign a {
+    top: 5%;
+  }
+  .main .development p {
+    font-size: 25px;
+  }
+  .main .development a {
+    top: 22%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

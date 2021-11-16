@@ -1,0 +1,163 @@
+@import "mixins";
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9789f9;
+    padding: 5%;
+    .ul {
+        @include ulAndDevelopmentBlock;
+    }
+    .webdesign {
+        width: 35%;
+        background-image: url("../images/bg-webdesign.png");
+        @include backgroundImage;
+        text-align: center;
+        padding: 3% 8% 0% 10%;
+        &__bubble {
+            opacity: 1;
+            position: relative;
+            left: 80%;
+            top: 3%;
+            &:hover .popular {
+                opacity: 1;
+            }
+            .popular {
+                opacity: 0;
+            }
+        }
+        &__price {
+            @include price;
+        }
+        & h1 {
+            @include titleH1;
+        }
+        & p {
+            @include P;
+        }
+        & a {
+            @include a;
+            background-color: #fd8d7b;
+            top: 1%;
+        }
+        & h5 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 11px;
+            font-weight: 300;
+            color: #a9a9a9;
+            margin-top: 10%
+        }
+    }
+    .development {
+        @include ulAndDevelopmentBlock;
+    }
+}
+
+@media (min-width: 407px) and (max-width: 575.98px) {
+    .main {
+        display: block;
+        padding-left: 15%;
+        .ul {
+            width: 90%;
+            padding: 25% 8% 25% 8%;
+            & p {
+                text-align: center;
+            }
+            & a {
+                top: 45px;
+            }
+        }
+        .webdesign {
+            width: 90%;
+            padding: 5% 8% 25% 8%;
+            &__bubble {
+                top: 40px;
+                left: 70%;
+            }
+        }
+        .development {
+            width: 90%;
+            padding: 25% 8% 25% 8%;
+            & p {
+                text-align: center;
+            }
+            & a {
+                top: 45px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        display: block;
+        padding-left: 15%;
+        .ul {
+            width: 90%;
+            padding: 25% 5% 25% 5%;
+            & p {
+                text-align: center;
+            }
+            & a {
+                top: 90px;
+            }
+        }
+        .webdesign {
+            width: 90%;
+            padding: 15% 8% 25% 8%;
+            &__bubble {
+                top: 10px;
+                left: 60%;
+            }
+            & a {
+                top: 10px;
+            }
+        }
+        .development {
+            width: 90%;
+            padding: 25% 5% 25% 5%;
+            & p {
+                text-align: center;
+            }
+            & a {
+                top: 90px;
+            }
+        }
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2560px) {
+    .main {
+        .ul {
+            & p {
+                font-size: 25px;
+            }
+            & a {
+                top: 22%;
+            }
+        }
+        .webdesign {
+            &__bubble {
+                top: 1%;
+                left: 75%;
+            }
+            & p {
+                font-size: 25px;
+            }
+            & h5 {
+                margin-top: 25%;
+            }
+            & a {
+                top: 5%;
+            }
+        }
+        .development {
+            & p {
+                font-size: 25px;
+            }
+            & a {
+                top: 22%;
+            }
+        }
+    }
+}

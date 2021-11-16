@@ -1,0 +1,80 @@
+@mixin backgroundImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin ulAndDevelopmentBlock {
+    width: 30%;
+    background-image: url(../images/bg_ul_web.png);
+    @include backgroundImage;
+    text-align: center;
+    padding: 8% 8% 10% 8%;
+    margin: 2% 0;
+    &__price {
+        @include price;
+    }
+    & h1 {
+        @include titleH1;
+    }
+    & p {
+        @include P;
+    }
+    a {
+        @include a;
+        background-color: #6fcffb;
+        top: 18%;
+    }
+}
+
+@mixin price {
+    display: flex;
+    justify-content: center;
+    & h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    & h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    & h5 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@mixin titleH1 {
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 25%;
+}
+
+@mixin P {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 20%;
+}
+
+@mixin a {
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    justify-content: center;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 8%;
+}
